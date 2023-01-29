@@ -210,6 +210,60 @@
 .sticky-18 .box {
 }
 
+/* /// examples /// */
+.example-1 .circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.example-1 .circle.a {
+  right: 200px;
+  top: 200px;
+}
+
+.example-1 .circle.b {
+  right: 240px;
+  top: 210px;
+}
+
+.example-1 .circle.c {
+  right: 180px;
+  top: 260px;
+}
+/* / 2 / */
+.example-2 .letters {
+  position: absolute;
+  /* border: 1px dashed red; */
+  width: 300px;
+  height: 300px;
+  right: 300px;
+  top: 100px;
+}
+
+.example-2 .circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(116, 37, 190);
+}
+
+.example-2 .circle.a {
+  right: 0;
+  top: 0;
+}
+
+.example-2 .circle.b {
+  left: 0;
+  top: 0;
+}
+
+.example-2 .circle.c {
+  left: 0;
+  bottom: 0;
+}
+
 /*  */
 /*  */
 /*  */

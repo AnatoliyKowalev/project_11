@@ -1,0 +1,282 @@
+/* centrate */
+.centrate {
+  display: block;
+}
+
+.centrate .box {
+  position: absolute;
+  margin: 0;
+}
+
+.centrate .box.y {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.centrate .box.x {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.centrate .box.c {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centrate .box.e {
+  left: -50%;
+  top: -50%;
+  transform: translate(50%, 50%);
+}
+
+/* 1 */
+.absolute-1 {
+  display: block;
+}
+
+.absolute-1 .box {
+  position: absolute;
+}
+
+/* 2 */
+.absolute-2 {
+  /* display: flex; */
+}
+
+.absolute-2 .box {
+  position: absolute;
+}
+
+/* 3 */
+.absolute-3 {
+  display: block;
+}
+
+.absolute-3 .box {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
+/* 4 */
+.absolute-4 {
+  display: block;
+}
+
+.absolute-4 .box {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+/* 5 */
+.absolute-5 {
+  /* display: block; */
+}
+
+.absolute-5 .extra {
+  background-color: rgb(91, 133, 28);
+  width: 80%;
+  height: 80%;
+}
+
+.absolute-5 .box {
+  position: absolute;
+  /* right: 50px;
+  bottom: 50px; */
+}
+
+/* 6 */
+.fixed-6 .box {
+  position: fixed;
+  /* z-index: 999; */
+}
+
+/* 7 */
+.fixed-7 .box {
+  /* position: fixed; */
+  left: 10%;
+  top: 10%;
+}
+
+/* 8 */
+.fixed-8 .box {
+  /* position: fixed;
+  margin: 0;
+  left: 0;
+  top: 0;
+  width: 100%; */
+}
+
+/* 9 */
+.sticky-9 .box {
+  top: 0;
+  position: sticky;
+}
+
+/* 10 */
+.sticky-10 {
+  display: block;
+}
+
+.sticky-10 .box {
+  width: 100%;
+  top: 0;
+  position: sticky;
+  margin: 0;
+}
+
+/* 11 */
+.sticky-11 {
+  display: block;
+}
+
+.sticky-11 .box {
+  width: 300px;
+  top: 150px;
+  /* right: 0; */
+  /* left: auto; */
+  margin-left: auto;
+  position: sticky;
+}
+
+/* 12 */
+.sticky-12 {
+  display: block;
+}
+
+.sticky-12 .box {
+  width: 100%;
+  top: 100%;
+  /* transform: translateY(-100%); */
+  position: sticky;
+  margin: 0;
+}
+
+/* 13 +++++++++++++++++++++++++++ */
+.absolute-13 {
+}
+
+.absolute-13 .box {
+}
+
+/* 14 +++++++++++++++++++++++++++ */
+.absolute-14 {
+}
+
+.absolute-14 .box {
+}
+
+/* 15 */
+.absolute-15 .circle {
+  position: absolute;
+  left: 0;
+  background-color: rgb(23, 27, 204);
+  border: 2px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.absolute-15 .box {
+  /* position: relative; */
+}
+
+/* 16 +++++++++++++++++++++++++++ */
+.absolute-16 .tolik {
+}
+
+.absolute-16 .box {
+}
+
+.absolute-16 .box:hover .tolik {
+}
+
+/* 17 +++++++++++++++++++++++++++ */
+.absolute-17 .price {
+}
+
+.absolute-17 .box {
+}
+
+.absolute-17 .box:hover .price {
+}
+
+/* 18 +++++++++++++++++++++++++++ */
+.sticky-18 .wrapper {
+}
+
+.sticky-18 .box {
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2deba;
+  position: relative;
+}
+
+section:nth-child(odd) {
+  background-color: #eac7c7;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: #424242;
+  color: #fff;
+  font-weight: bold;
+  margin: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}

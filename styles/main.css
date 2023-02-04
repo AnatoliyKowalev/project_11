@@ -89,15 +89,17 @@
 
 /* 6 */
 .fixed-6 .box {
-  position: fixed;
-  /* z-index: 999; */
+  /* position: fixed;
+  z-index: 999;
+  right: 100px;
+  top: 100px; */
 }
 
 /* 7 */
 .fixed-7 .box {
   /* position: fixed; */
-  left: 10%;
-  top: 10%;
+  /* left: 10%;
+  top: 10%; */
 }
 
 /* 8 */
@@ -156,16 +158,26 @@
 
 /* 13 +++++++++++++++++++++++++++ */
 .absolute-13 {
+  display: block;
 }
 
 .absolute-13 .box {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 /* 14 +++++++++++++++++++++++++++ */
 .absolute-14 {
+  display: block;
 }
 
 .absolute-14 .box {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
 }
 
 /* 15 */
@@ -185,29 +197,58 @@
 
 /* 16 +++++++++++++++++++++++++++ */
 .absolute-16 .tolik {
+  position: absolute;
+  right: 100%;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: all 0.4s;
+  transform: translateX(100%);
 }
 
 .absolute-16 .box {
+  position: relative;
 }
 
 .absolute-16 .box:hover .tolik {
+  transform: translateX(0);
+  right: 0;
 }
 
 /* 17 +++++++++++++++++++++++++++ */
 .absolute-17 .price {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(60, 157, 76);
+  width: 100%;
+  text-align: center;
+  transform: translateY(100%);
+  color: white;
 }
 
 .absolute-17 .box {
+  position: relative;
+  overflow: hidden;
 }
 
 .absolute-17 .box:hover .price {
+  transition: all 0.4s;
+  transform: translateY(0);
 }
 
 /* 18 +++++++++++++++++++++++++++ */
 .sticky-18 .wrapper {
+  width: 40%;
+  height: 60%;
+  background-color: orange;
 }
 
 .sticky-18 .box {
+  position: sticky;
+  top: 0;
+  margin: 0;
 }
 
 /* /// examples /// */
